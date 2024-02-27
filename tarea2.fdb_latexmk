@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1708556144 "tarea2.tex" "tarea2.pdf" "tarea2" 1708556147
+["lualatex"] 1709072577 "tarea2.tex" "tarea2.pdf" "tarea2" 1709072581
   "/Users/omarpacheco/Library/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc" 1700559210 128410 3c91169ff7de983cd311d522ab9c8010 ""
   "/Users/omarpacheco/Library/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bolditalic.luc" 1700559211 136491 9b6b8c726e5c4d6b6ace114b35fad0c7 ""
   "/Users/omarpacheco/Library/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.luc" 1700559211 136312 f1163424d4d27a9767290cb68c428e77 ""
@@ -323,8 +323,8 @@
   "letterfonts.tex" 1708550753 8702 ef32ca12e97530ef5734ca4adcb1f6b1 ""
   "macros.tex" 1708550753 3389 93000260d2aea292d29c76d4ace77a29 ""
   "preamble.tex" 1708556081 20053 5036db72d58bba4ac56ae4dc54efc015 ""
-  "tarea2.aux" 1708556147 808 7837666537c99e44200007053ae98359 "lualatex"
-  "tarea2.tex" 1708556144 548 5583dfecf902029905328939c030de90 ""
+  "tarea2.aux" 1709072580 808 7837666537c99e44200007053ae98359 "lualatex"
+  "tarea2.tex" 1709072577 1687 dbdb9e4fda0616002c0d0a56fa3564ac ""
   (generated)
   "tarea2.aux"
   "tarea2.log"

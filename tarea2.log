@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2023.1.27)  21 FEB 2024 15:55
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2023.1.27)  27 FEB 2024 15:22
  restricted system commands enabled.
  file:line:error style messages enabled.
 **tarea2.tex
@@ -1237,19 +1237,19 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1] (./tarea2.aux))
 
 Here is how much of LuaTeX's memory you used:
- 37800 strings out of 477785
+ 37798 strings out of 477785
  100000,1144653 words of node,token memory allocated
  1796 words of node memory still in use:
    34 hlist, 2 vlist, 14 rule, 12 glue, 4 kern, 1 glyph, 125 attribute, 77 glue_spec, 125 attribute_list, 2 write, 58 pdf_literal, 26 pdf_colorstack nodes
-   avail lists: 2:689,3:493,4:52,5:92,6:14,7:894,8:24,9:220,10:1,11:42
- 56855 multiletter control sequences out of 65536+600000
+   avail lists: 2:975,3:535,4:72,5:130,6:24,7:2552,8:9,9:430,10:2,11:128
+ 56856 multiletter control sequences out of 65536+600000
  178 fonts using 12220207 bytes
  96i,7n,98p,454b,1392s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman10-bolditalic.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newpx/NewPXMI.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newpx/pxsys.pfb>
-Output written on tarea2.pdf (2 pages, 26815 bytes).
+Output written on tarea2.pdf (2 pages, 33707 bytes).
 
-PDF statistics: 95 PDF objects out of 1000 (max. 8388607)
- 52 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 131072)
+PDF statistics: 92 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
+ 3 named destinations out of 1000 (max. 131072)
  256 words of extra memory for PDF output out of 10000 (max. 100000000)
 
