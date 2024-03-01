@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1709240863 "tarea2.tex" "tarea2.pdf" "tarea2" 1709240867
+["lualatex"] 1709259525 "tarea2.tex" "tarea2.pdf" "tarea2" 1709259529
   "/Users/omarpacheco/Library/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc" 1700559210 128410 3c91169ff7de983cd311d522ab9c8010 ""
   "/Users/omarpacheco/Library/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bolditalic.luc" 1700559211 136491 9b6b8c726e5c4d6b6ace114b35fad0c7 ""
   "/Users/omarpacheco/Library/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.luc" 1700559211 136312 f1163424d4d27a9767290cb68c428e77 ""
@@ -45,7 +45,10 @@
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/txfonts/txsya.tfm" 1136768653 972 2c9ffac4bbd20f91c01aaef9bf3f8710 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/txfonts/txsyb.tfm" 1136768653 988 098ca7e8cc5647b9ac21b82dbdce1f01 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/txfonts/txsyc.tfm" 1136768653 1084 75e807e9e71f7a312e4e1187dce5e93b ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr10.pfb" 1255129361 119235 f35b44530a1d90eb90fe15d9cba67ea0 ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr7.pfb" 1255129361 121145 68312a933e2c689ed40ec0aba373e279 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/newpx/NewPXMI.pfb" 1591219423 25273 57c06ae0831a03c4eb441ef7894a1639 ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb" 1634156854 55131 37a379baccd50ac17c5ca120b382f7a1 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/newpx/pxsys.pfb" 1622581553 40420 f45498301b5afd566294a3567cb80a1d ""
   "/usr/local/texlive/2022/texmf-dist/fonts/vf/public/newpx/zplexa.vf" 1589834291 544 77baeca4a978536490f962f5b8088ad1 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/vf/public/newpx/zplexx.vf" 1471383743 1308 008fdb91ea46e5a26848b9a9c07d2e15 ""
@@ -323,8 +326,8 @@
   "letterfonts.tex" 1708550753 8702 ef32ca12e97530ef5734ca4adcb1f6b1 ""
   "macros.tex" 1708550753 3389 93000260d2aea292d29c76d4ace77a29 ""
   "preamble.tex" 1708556081 20053 5036db72d58bba4ac56ae4dc54efc015 ""
-  "tarea2.aux" 1709240866 808 5bd5371b11fafbbc2b2fb6199239888c "lualatex"
-  "tarea2.tex" 1709240862 3743 b9a63b499ffcd6884f15b51ded41001d ""
+  "tarea2.aux" 1709259528 808 5bd5371b11fafbbc2b2fb6199239888c "lualatex"
+  "tarea2.tex" 1709259525 5292 8d4ced5bf125e4a97915c2ccd8b74227 ""
   (generated)
   "tarea2.aux"
   "tarea2.log"

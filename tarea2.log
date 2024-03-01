@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2023.1.27)  29 FEB 2024 14:07
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2023.1.27)  29 FEB 2024 19:18
  restricted system commands enabled.
  file:line:error style messages enabled.
 **tarea2.tex
@@ -1237,19 +1237,19 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
  [2] (./tarea2.aux))
 
 Here is how much of LuaTeX's memory you used:
- 37825 strings out of 477785
+ 37858 strings out of 477785
  100000,1144653 words of node,token memory allocated
- 1796 words of node memory still in use:
-   34 hlist, 2 vlist, 14 rule, 12 glue, 4 kern, 1 glyph, 125 attribute, 77 glue_spec, 125 attribute_list, 2 write, 58 pdf_literal, 26 pdf_colorstack nodes
-   avail lists: 2:2596,3:1597,4:142,5:190,6:38,7:6234,8:9,9:848,10:6,11:332
- 56878 multiletter control sequences out of 65536+600000
+ 1804 words of node memory still in use:
+   34 hlist, 2 vlist, 14 rule, 12 glue, 4 kern, 1 glyph, 127 attribute, 77 glue_spec, 127 attribute_list, 2 write, 58 pdf_literal, 26 pdf_colorstack nodes
+   avail lists: 2:3601,3:2437,4:176,5:256,6:38,7:6234,8:39,9:1022,10:6,11:332
+ 56906 multiletter control sequences out of 65536+600000
  178 fonts using 12220207 bytes
  96i,7n,98p,454b,1392s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman10-bolditalic.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newpx/NewPXMI.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newpx/pxsys.pfb>
-Output written on tarea2.pdf (3 pages, 39496 bytes).
+</usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman10-bolditalic.otf>{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newpx/NewPXMI.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newpx/pxsys.pfb>
+Output written on tarea2.pdf (3 pages, 98776 bytes).
 
-PDF statistics: 100 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
- 8 named destinations out of 1000 (max. 131072)
+PDF statistics: 118 PDF objects out of 1000 (max. 8388607)
+ 71 compressed objects within 1 object stream
+ 13 named destinations out of 1000 (max. 131072)
  256 words of extra memory for PDF output out of 10000 (max. 100000000)
 

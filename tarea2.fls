@@ -762,4 +762,7 @@ INPUT /Users/omarpacheco/Library/texlive/2022/texmf-var/luatex-cache/generic/fon
 INPUT /Users/omarpacheco/Library/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bolditalic.luc
 INPUT ./tarea2.aux
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/newpx/NewPXMI.pfb
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr10.pfb
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr7.pfb
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/newpx/pxsys.pfb
