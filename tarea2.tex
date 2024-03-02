@@ -65,6 +65,12 @@
   que una persona seleccionada al azar en una población tenga casa propia?
 }
 
+Sea $R, M, B, C, N$ eventos, tales que: \newline
+
+\begin{enumerate}
+        \item[a. ] $P(P|C) = \dfrac{P(B \cap C)}{P(C)} = \dfrac{0.3 \cdot 0.2}{0.3124} = 0.191$
+        \item[b. ] $P(C) = P(R \cap C) + P(M \cap C) + P(B \cap C)$ \newline $ P(C) = P(R) \cdot P(R | C) + P(M) \cdot P(M | C) + P(B) \cdot P(B | C)$ \newline $P(C) = 0.02(0.7) + 0.68(0.43) + 0.3(0.02) = 0.3124$
+      \end{enumerate}
 \qs{}{
   Los miembros de una firma de consultoría rentan automóviles en tres agencias: 60%
   de la agencia 1, 30\% de la agencia 2 y 10\% de la agencia 3. Si 9\% de los vehículos de
@@ -87,11 +93,19 @@
   \end{enumerate}
 }
 
+Sea $A_1, A_2, P, S$ eventos, tales que: \newline
+
+\begin{enumerate}
+        \item[a. ] $P(B) = P(B \cap A_1) + P(B \cap A_2)$ \newline $ P(B) = P(A_1) \cdot P(A_1 | B) + P(A_2) \cdot P(A_2 | B)$ \newline $P(B) = 0.6(0.65) + 0.4(0.85) = 0.73$
+        \item[b. ] Calculas la probabilidad de $P(A_1|P)$ y de $P(A_2 | P)$ \newline
+        $P(A_1 | P) = \dfrac{P(C | A_1) \cdot P(A_1)}{P(C)} = \dfrac{0.65 \cdot 0.6}{0.73} = 0.534$ \newline $P(A_2 | P) = \dfrac{P(C | A_2) \cdot P(A_2)}{P(C)} = \dfrac{0.85 \cdot 0.4}{0.73} = 0.465$ \newline por lo que es mas probable que sea de primera calidad es del primer autómata.
+      \end{enumerate}
+
 \newpage
 \qs{}{
   Una máquina consiste en 4 componentes conectados en paralelo, de modo que la
   máquina falla sólo si los cuatro componentes fallan. Supongamos que los
-  components son independientes entre sí. Si los componentes tienen probabilidades 
+  componentes son independientes entre sí. Si los componentes tienen probabilidades 
   0.1; 0.2; 0.3 y 0.4 de fallar cuando la máquina es encendida, ¿cuál es la probabilidad
   de que funcione al encenderla?
 }
@@ -100,6 +114,10 @@
   Se lanza un dado dos veces. Sea $A = \mathrm{"el\ máximo\ de\ las\ caras\ es\ 2"}$,
   $B = \mathrm{"el\ mímino\ de\ las\ caras\ es\ 2"}$. ¿Son independientes? Argumente su respuesta.
 }
+
+Dos eventos son independientes, si y solo si: \newline $P(A \cap B) = P(A) \cdot P(B)$ \newline \newline
+
+Si $\#\Omega = 36$ y $\#A = 3, \#B = 9$ y $\#A \cap B = 1$, por lo que: \newline  $P(A) = \dfrac{3}{36}$ y $P(B) = \dfrac{9}{36}$, comprobamos independencia: \newline $P(A \cap B) = \dfrac{3}{36} \cdot \dfrac{9}{36} \neq \dfrac{1}{36}$ por lo tanto, no son independientes.
 
 \qs{}{
   Si los tres primeros lanzamientos de una moneda han resultado cara, la probabilidad
@@ -122,6 +140,33 @@
   ¿Son A y B independientes?
 }
 
+Calculemos la probabilidad de $P(A), P(B), P(A \cap B)$ \newline
+
+La probabilidad del evento $A$, $P(A) = 0.2$ \newline 
+
+Sabemos que al elegir una tabla tal vez verde las 10000 tablas que habían ahora quedan 9999 y quedaran 1999 verdes o 2000 verdes.
+
+$P(B | A) = \dfrac{1999}{9999} = 0.199$
+
+El caso de que no sea verde:
+
+$P(B | A^c) = \dfrac{2000}{9999} = 0.2$
+
+Para obtener la $P(B)$ utilizaremos el teorema de la probabilidad total:
+
+$P(B) = P(A) \cdot P(B | A) + P(A^c) \cdot P(B | A^c)$
+
+$P(B) = \dfrac{1999}{9999} \cdot 0.2 + 0.8 \cdot \dfrac{2000}{9999} = 0.2$
+
+Ahora calculamos $P(A \cap B)$:
+
+$P(A \cap B) = P(A) \cdot P(B | A) = 0.04$
+
+Verificamos la independencia:
+
+$P(A \cap B) = P(A) \cdot P(B)$
+$0.04 = 0.2 \cdot 0.2 = 0.04$ por lo tanto, son independientes.
+
 \qs{}{
   Demuestre que para los eventos independientes $A$ y $B$ se tiene que
   \[P(A \cup B) = 1 - P(A^c)P(B^c)\]
@@ -135,6 +180,24 @@
   Si $A$ y $B$ son eventos independientes y la probabilidad de que ambos ocurran es $0.16$,
   mientras que la probabilidad de que ninguno ocurra es $0.36$, calcule $P(A)$ y $P(B)$.
 }
+
+Dado que $P(A) \cdot P(B) = 0.16 = P(A \cap B)$ y $P(A^c \cap B^c) = 0.36$, realizamos operaciones mediante leyes de morgan.
+
+$P(A^c \cap B^c) = 1 - P(A \cup B)$ \newline
+$P(A^c \cap B^c) = 1 - 0.36 = 0.64$ \newline
+$P(A) + P(B) - P(A \cap B) = 0.64$ \newline 
+$P(A) + P(B) = 0.8$
+$P(A) = 0.8 - P(B)$
+
+Usando lo que sabemos:
+
+$P(B) \cdot (0.8 - P(B)) = 0.16$
+$0.8 \cdot P(B) - P(B)^2 = 0.16$
+$P(B)^2 - 0.8\cdot P(B) + 0.16 = 0$
+
+por lo tanto:
+
+$P(B) = 0.4$ y $P(A) = 0.4$
 
 \pf{Demostración del inciso 1.1}{
   Es fácil ver que la pregunta 1 es verdad.
