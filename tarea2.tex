@@ -55,6 +55,102 @@
   \end{enumerate}
 }
 
+\pf{Solución Pregunta 1}{
+  Primero completamos la tabla:
+  \begin{center}
+    \begin{tabular}{|c|c|c|c|c|}
+      \hline
+      \textbf{Área de la ciudad} & \textbf{A favor (F)} & \textbf{En contra (Q)} & \textbf{Indecisos (R)} & \textbf{Total} \\ 
+      \hline
+      \textbf{A} & 100 & 20 & 5 & 125 \\
+      \hline
+      \textbf{B} & 115 & 5 & 5 & 125 \\
+      \hline
+      \textbf{D} & 50 & 60 & 15 & 125 \\
+      \hline
+      \textbf{E} & 35 & 50 & 40 & 125 \\
+      \hline
+      \textbf{Total} & 300 & 135 & 65 & 500 \\
+      \hline
+    \end{tabular}
+  \end{center}
+
+  Ahora sí respondemos las preguntas:
+  \begin{enumerate}
+    \item[a) ]
+      \begin{enumerate}
+        \item[i. ] Se nos pregunta la prob. de que esté en contra dado que
+          (condicional) vive en la zona A o E. Es decir, $P(Q|A \cup E)$. \medskip
+
+          Por definición: \[P(Q|A \cup E) = \frac{P(Q \cap (A \cup E))}{P(A \cup E)}\]
+          Además, al ser un espacio equiprobable tenemos:
+          \[P(A \cup E) = \frac{\# A \cup E}{\# \Omega} = \frac{135}{500} = \frac{27}{100}\]
+          \begin{align*}
+            P(Q \cap (A \cup E)) &= \frac{\# Q \cap (A \cup E)}{\# \Omega} \\
+            P(Q \cap (A \cup E)) &= \frac{\# (Q \cap A) \cup (Q \cap E)}{500} \\
+            P(Q \cap (A \cup E)) &= \frac{70}{500}
+          \end{align*}
+
+          Así que tenemos:
+          \[P(Q|A \cup E) = \frac{\dfrac{70}{500}}{\dfrac{135}{500}} = \frac{70}{135}\]
+
+        \item[ii. ] La prob. de que este indeciso $(R)$, dado que (condicional) no viva
+          en la zona D $(D^c)$, esto es
+          \begin{align*}
+            P(R|D^c) = \frac{P(R \cap D^c)}{P(D^c)}
+          \end{align*}
+
+          donde
+          \begin{align*}
+            P(D^c) &= \frac{\# D^c}{\# \Omega} = \frac{375}{500} \\
+            P(R \cap D^c) &= \frac{\# R \cap D^c}{\# \Omega} = \frac{50}{500}
+          \end{align*}
+
+          Sustituimos:
+          \begin{align*}
+            P(R|D^c) &= \frac{\dfrac{50}{500}}{\dfrac{375}{500}} \\
+            P(R|D^c) &= \frac{50}{500}
+          \end{align*}
+      \end{enumerate}
+    \item[b) ]
+      \begin{enumerate}
+      \item[i. ] \[P(F|B) = \frac{P(F \cap B) }{P(B)}\]
+        \begin{align*}
+          P(B) &= \frac{\# B}{\# \Omega} = \frac{125}{500} \\
+          P(F \cap B) &= \frac{\# F \cap B}{\# \Omega} = \frac{115}{500} \\
+          ~ \\
+          \therefore P(F|B) &= \frac{\dfrac{115}{500}}{\dfrac{125}{500}} \\
+          ~ \\
+          P(F|B) &= \frac{115}{125}
+        \end{align*}
+        
+      \item[ii. ] 
+        \[
+        P(D|Q) = \frac{P(D \cap Q)}{P(Q)}
+        \qquad
+        \begin{aligned}
+          &P(D \cap Q) = \frac{\# D \cap Q}{\# \Omega} = \frac{60}{500} \\
+          &P(Q) = \frac{\# Q}{\# \Omega} = \frac{135}{500}
+        \end{aligned}
+        \]
+        
+        \[\therefore P(D|Q) = \frac{\frac{60}{500}}{\frac{135}{500}} = \frac{60}{135}\]
+
+      \item[iii. ] 
+        \[
+        P(Q|A \cup B) = \frac{P(Q \cap (A \cup B))}{P(A \cup B)}
+        \qquad
+        \begin{aligned}
+          &P(Q \cap (A \cup B)) = \frac{\# Q \cap (A \cup B)}{\# \Omega} = \frac{25}{500} \\
+          &P(A \cup B) = \frac{\# A \cup B}{\# \Omega} = \frac{250}{500}
+        \end{aligned}
+        \]
+        
+        \[\therefore P(D|Q) = \frac{\frac{25}{500}}{\frac{250}{500}} = \frac{25}{250}\]
+      \end{enumerate}
+  \end{enumerate}
+}
+
 \qs{}{
   Supóngase que dividimos a las personas en tres clases económicas: pobre, media y
   rica. Mediante una encuesta, se encuentra que el 2\% de los pobres, el 43\% de la
@@ -66,12 +162,44 @@
 }
 
 \qs{}{
-  Los miembros de una firma de consultoría rentan automóviles en tres agencias: 60%
+  Los miembros de una firma de consultoría rentan automóviles en tres agencias: 60\%
   de la agencia 1, 30\% de la agencia 2 y 10\% de la agencia 3. Si 9\% de los vehículos de
   la agencia 1 necesitan afinación, 20\% de las unidades de la agencia 2 necesitan
   también una afinación y 6\% de los autos de la agencia 3 necesitan asimismo
   afinación, ¿cuál es la probabilidad de que un automóvil rentado a la firma necesite
-  afinación?
+  afinación? Si un automóvil rentado a una firma de consultoría necesita afinación, ¿cuál es la
+  probabilidad de que este vehículo provenga de la agencia 2?
+}
+
+\pf{Solución pregunta 3}{
+  Tenemos los siguientes eventos:
+  \begin{itemize}
+    \item $A_1 := $ "El carro rentado es de la agencia 1", \qquad $P(A_1) = \frac{60}{100}$
+    \item $A_2 := $ "El carro rentado es de la agencia 2", \qquad $P(A_2) = \frac{30}{100}$
+    \item $A_3 := $ "El carro rentado es de la agencia 3", \qquad $P(A_3) = \frac{10}{100}$
+    \item $B_1 := $ "El carro de la agencia 1 necesita afinación", \qquad $P(B_1) = \frac{9}{100}$
+    \item $B_2 := $ "El carro de la agencia 2 necesita afinación", \qquad $P(B_2) = \frac{20}{100}$
+    \item $B_3 := $ "El carro de la agencia 3 necesita afinación", \qquad $P(B_3) = \frac{6}{100}$
+  \end{itemize}
+
+  Y si nos pregunta entonces: $P(B) := \text{"La probabilidad de que un carro necesite afinación"}$.
+  Cómo los eventos $A_1, A_2, A_3$ forman una partición, tenemos entonces:
+  \begin{align*}
+    P(B) &= P(B \cap A_1) + P(B \cap A_2) + P(B \cap A_3) \\
+    P(B) &= P(A_1)P(B|A_1) + P(A_2)P(B|A_2) + P(A_3)P(B|A_3)
+    ~\\
+    P(B) &= \frac{60}{100} \frac{9}{100} + \frac{30}{100} \frac{20}{100} + \frac{10}{100} \frac{6}{100} \\
+    P(B) &= \frac{3}{25}
+  \end{align*}
+
+  Luego se nos pregunta la probabilidad de que un carro sea de la agencia 2 dado que ocupa afinación,
+  es decir $P(A_2|B)$. Por definición:
+  \begin{align*}
+    P(A_2|B) &= \frac{P(A_2 \cap B)}{P(B)}
+    ~\\
+    P(A_2|B) &= \frac{P(A_2)\ P(B|A_2)}{P(B)} = \frac{\frac{30}{100} \frac{20}{100}}{\frac{3}{25}} \\
+    P(A_2|B) &= \frac{1}{2}
+  \end{align*}
 }
 
 \qs{}{
@@ -87,13 +215,29 @@
   \end{enumerate}
 }
 
-\newpage
 \qs{}{
   Una máquina consiste en 4 componentes conectados en paralelo, de modo que la
   máquina falla sólo si los cuatro componentes fallan. Supongamos que los
   components son independientes entre sí. Si los componentes tienen probabilidades 
   0.1; 0.2; 0.3 y 0.4 de fallar cuando la máquina es encendida, ¿cuál es la probabilidad
   de que funcione al encenderla?
+}
+
+\pf{Solución pregunta 5}{
+  $A := \text{"La maquina funcione al encenderla"} = \text{"La maquina no falle al encenderla"}$. \\
+  Además, sea $B := \text{La maquina falle al encenderla}$, $A = B^c$. Como los componentes son
+  independientes, la probabilidad de que uno falle es independiente de si fallen los otros o no.
+  Por lo tanto $P(C_i \cap C_j) = P(C_i)P(C_j)$. \\
+  Ahora, calculemos $P(B)$ y luego $P(B^c)$
+  \begin{align*}
+    P(B) &= P(C_1, C_2, C_3, C_4) \\
+    P(B) &= P(C_1)\ P(C_2)\ P(C_3)\ P(C_4) \\
+    P(B) &= 0.1 \cdot 0.2 \cdot 0.3 \cdot 0.4 \\
+    P(B) &= 0.0024 \\
+    ~\\
+    P(B^c) &= 1 - P(B) = 1 - 0.0024 \\
+    P(B^c) &= 0.9976 = P(A)
+  \end{align*}
 }
 
 \qs{}{
@@ -112,6 +256,12 @@
   \end{enumerate}
 }
 
+\pf{Solución pregunta 7}{
+  La respuesta es C. $\frac{1}{2}$, ya que el resultado de lanzar una moneda no afecta el
+  el resultado del siguiente, es decir, son independientes. Por que la probabilidad del
+  primer lanzamiento será la misma del segundo lanzamiento, $\frac{1}{2}$.
+}
+
 \qs{}{
   Una compañía maderera acaba de recibir un lote de 10,000 tablas de 2x4. Suponga
   que 20\% de estas tablas (2000) en realidad están demasiado tiernas o verdes para
@@ -127,8 +277,45 @@
   \[P(A \cup B) = 1 - P(A^c)P(B^c)\]
   
   Generalización (inducción): Si los eventos $A_1, A_2, \dots, A_n$ son
-  mutuamente indepndientes, entonces
+  mutuamente independientes, entonces
   \[P(A_1 \cup A_2 \cup \dots \cup A_n) = 1 - P(A_1^c)P(A_2^c) \dots P(A_n^c).\]
+}
+
+\pf{Solución pregunta 9}{
+  Si dos eventos $A, B$ son independientes tenemos que
+  \begin{align*}
+    P(A \cap B) &= P(A)\ P(B) \\
+    P(A \cap B) &= (1 - P(A^c)) (1 - P(B^c)) \\
+    P(A \cap B) &= 1 - P(A^c) - P(B^c) + P(A^c)P(B^c)
+  \end{align*}
+
+  Y para cualesquiera dos eventos tenemos:
+  \begin{align*}
+    P(A \cup B) &= P(A) + P(B) - P(A \cap B) \\
+    P(A \cup B) &= 1 - P(A^c) + 1 - P(B^c) - P(A \cap B) \\
+    P(A \cup B) &= 1 - P(A^c) + 1 - P(B^c) - (1 - P(A^c) - P(B^c) + P(A^c) P(B^c)) \\
+    P(A \cup B) &= 1 - \cancel{P(A^c)} + \cancel{1} - \cancel{P(B^c)} - \cancel{1} + 
+    \cancel{P(A^c)} + \cancel{P(B^c)} - P(A^c) P(B^c) \\
+    P(A \cup B) &= 1 - P(A^c)P(B^c)
+  \end{align*}
+
+  Ahora, por hipótesis inductiva supongamos que para $A_1, A_2, \dots, A_n$ eventos
+  independientes, la afirmación:
+  \begin{equation}
+    P(A_1 \cup A_2 \cup \dots \cup A_n) = 1 - P(A_1^c) P(A_2^c) \dots P(A_n^c)
+  \end{equation}
+
+  es verdadera. Intentaremos demostrar que la afirmación
+  \begin{equation}
+    P(A_1 \cup A_2 \cup \dots \cup A_n \cup A_{n+1}) = 1 - P(A_1^c) P(A_2^c) \dots P(A_n^c) P(A_{n+1}^c)
+  \end{equation}
+
+  También es verdadera \\
+
+  Consideremos la únion de eventos $(\bigcup_{1}^{n}A_{i}) \cup A_{n+1}$, por definición tendremos:
+  \begin{align*}
+    P \left( \left( \bigcup_1^n A_i \right) \cup A_n \right)
+  \end{align*}
 }
 
 \qs{}{
@@ -136,8 +323,11 @@
   mientras que la probabilidad de que ninguno ocurra es $0.36$, calcule $P(A)$ y $P(B)$.
 }
 
-\pf{Demostración del inciso 1.1}{
-  Es fácil ver que la pregunta 1 es verdad.
+
+\pf{Solución pregunta 9}{
+  Es fácil ver que la afirmación 
+  \[P(A_1 \cup A_2 \cup \dots \cup A_n) = 1 - P(A_1^c) P(A_2^c) \dots P(A_n^c)\]
+  es verdadera
 }
 
 \end{document}

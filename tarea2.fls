@@ -760,9 +760,14 @@ INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/public/newtx/ntxexa.vf
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/txexas.tfm
 INPUT /Users/omarpacheco/Library/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.luc
 INPUT /Users/omarpacheco/Library/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bolditalic.luc
+INPUT /Users/omarpacheco/Library/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman7-regular.luc
+INPUT /Users/omarpacheco/Library/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman6-regular.luc
 INPUT ./tarea2.aux
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/newpx/NewPXMI.pfb
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr10.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr7.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/newpx/pxsys.pfb
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/txexs.pfb
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/txfonts/txsya.pfb
